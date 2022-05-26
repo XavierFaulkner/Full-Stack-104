@@ -42,11 +42,11 @@ public class Main {
 //        PrintingUserInput printer = new PrintingUserInput();
 //        printer.printInput(printer.getInput(in));
 //
-//        //Limited Numbers
-//        System.out.println("\n*****Limited Numbers*****");
-//        LimitedNumbers l = new LimitedNumbers();
-//        l.getNumbers(in);
-//        l.printNumbers();
+        //Limited Numbers
+        System.out.println("\n*****Limited Numbers*****");
+        LimitedNumbers l = new LimitedNumbers();
+        l.getNumbers(in);
+        l.printNumbers();
 
         //Unique Last Names
         System.out.println("\n*****Unique Last Names*****");
