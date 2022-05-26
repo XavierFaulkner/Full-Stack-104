@@ -42,18 +42,27 @@ public class Main {
 //        PrintingUserInput printer = new PrintingUserInput();
 //        printer.printInput(printer.getInput(in));
 //
-        //Limited Numbers
-        System.out.println("\n*****Limited Numbers*****");
-        LimitedNumbers l = new LimitedNumbers();
-        l.getNumbers(in);
-        l.printNumbers();
+//        //Limited Numbers
+//        System.out.println("\n*****Limited Numbers*****");
+//        LimitedNumbers l = new LimitedNumbers();
+//        l.getNumbers(in);
+//        l.printNumbers();
+//
+//        //Unique Last Names
+//        System.out.println("\n*****Unique Last Names*****");
+//        UniqueLastNames n = new UniqueLastNames();
+//        n.getNames(in);
+//        n.printLastNames();
+//
+//        in.close();
 
-        //Unique Last Names
-        System.out.println("\n*****Unique Last Names*****");
-        UniqueLastNames n = new UniqueLastNames();
-        n.getNames(in);
-        n.printLastNames();
+        //Reading Files Per Line
+        System.out.println("\n*****Reading Files Per Line*****");
+        ReadingFiles r = new ReadingFiles();
+        r.read("C:\\CTAC\\Full-Stack-104\\Day_63\\Streams_Practice\\src\\sampleFile.txt").stream().forEach(System.out::println);
 
-        in.close();
+        //Books from file
+        System.out.println("\n*****Books from file*****");
+
     }
 }
